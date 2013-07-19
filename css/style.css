@@ -21,6 +21,7 @@ a:hover, a:focus
 }
 
 #page-content{
+  width: auto;
   padding-top: 25px;
   margin-left: 249px;
 }
@@ -91,6 +92,7 @@ li.highlight {
   background: #FEE25F;
 }
 .sortable, .exclude, .handles {
+  width: 115%;
   margin: auto;
   padding: 0;
   -webkit-touch-callout: none;
@@ -113,7 +115,7 @@ li.highlight {
 .sortable li, .exclude li, .handles li {
   list-style: none;
   margin: 5px 0px 20px 0px;
-  padding: 0px;
+  padding: 0px 0px 0px 0px;
   height: auto;
 }
 .sortable .sortable-first-col{
@@ -125,7 +127,7 @@ li.highlight {
 }
 .sortable.grid li ul li {
     float: left;
-    margin: 0 11px 0 11px;
+    margin: 0 11px 11px 11px;
     list-style: none;
     text-align: center;
     width: 40px;
@@ -155,6 +157,12 @@ li.highlight {
   padding-left: 43px;
   font-size: 14px;
 }
+
+.panel {
+  background-color: transparent;
+  width: 115%;
+}
+ 
 .panel-heading img {
   width: 35px;
   display: inline-block;
@@ -221,6 +229,7 @@ li.highlight {
     color: #888;
     text-decoration: none;
 }
+
 .module-box-body img {
   margin-bottom: 5px;
 }
@@ -870,7 +879,7 @@ li.highlight {
 
 #menu-sidebar i {
     margin-right: 2px;
-	visibility: hidden;
+	/*visibility: hidden;*/
 }
 /*End sidebar nav*/
 
@@ -889,6 +898,7 @@ li.highlight {
   
 .breadcrumb {
 	background-color: #ddd;
+	width: 115%;
 }
 
 .breadcrumb > .active {
@@ -899,6 +909,7 @@ li.highlight {
 	color: #3a87ad;
 	background-color: #f2f2f2;
 	border-color: #fff;
+	width: 115%;
 }
 
 .btn {
@@ -911,3 +922,4 @@ li.highlight {
 	background-color: #7dbb40;
 	border-color: #96de4d;
 }
+
