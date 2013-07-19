@@ -127,7 +127,7 @@ li.highlight {
 }
 .sortable.grid li ul li {
     float: left;
-    margin: 0 11px 11px 11px;
+    margin: 0px 11px 11px 11px;
     list-style: none;
     text-align: center;
     width: 40px;
