@@ -26,7 +26,7 @@
 
     <!-- styles -->
     <link href="/etc/styles/zpanelx/css/bootstrap.css" rel="stylesheet">
-    <link href="/etc/styles/zpanelx-green/css/style.css" rel="stylesheet">
+    <link href="/etc/styles/zpanelx-xgreen/css/style.css" rel="stylesheet">
     <link href="/etc/styles/zpanelx/css/login.css" rel="stylesheet">
 
 
@@ -62,7 +62,7 @@
 
 <div class="panel login-panel">
     <div class="panel-heading login-head">
-        <img src="/etc/styles/zpanelx/images/zplogo_v9.png">
+        <a href=".."><img src="/etc/styles/zpanelx/images/zplogo_v9.png"></a>
     </div>
     <div class="panel-content form-horizontaL">
 
