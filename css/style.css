@@ -1,5 +1,6 @@
 body {
-	background-color: #f2f2f2;
+	/*background-color: #f2f2f2;*/
+	background-color: #fff;
 }
 
 a
@@ -127,7 +128,7 @@ li.highlight {
 }
 .sortable.grid li ul li {
     float: left;
-    margin: 0px 11px 11px 11px;
+    margin: 0 11px 11px 11px;
     list-style: none;
     text-align: center;
     width: 40px;
@@ -215,7 +216,8 @@ li.highlight {
  }
 
 .module-box-body {
-    background-color: #f2f2f2;
+    /*background-color: #f2f2f2;*/
+	background-color: #fff;
     border: 1px solid #ccc;
     border-top: 0;
     padding: 10px;
@@ -523,9 +525,7 @@ li.highlight {
   .sortable li, .exclude li, .handles li {
     margin: 10px 0px 10px 0px;
   }
-  .alert {
-  margin-left: 0px;
-}
+  
 }
 
 @media (max-width: 979px) and (min-width: 768px){
@@ -903,6 +903,11 @@ li.highlight {
 
 .breadcrumb > .active {
 	color: #777;
+}
+
+/* ALERT BOX */
+.alert {
+  margin-left: 0px;
 }
  
 .alert-info {
