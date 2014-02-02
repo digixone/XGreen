@@ -2,13 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>ZPanel &gt; <# ui_tpl_username #> - <# ui_tpl_domainname #></title>
+    <title><# ui_tpl_username #> - <# ui_tpl_domainname #></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Web Hosting Control Panel">
 
     <!-- styles -->
-    <link href="<# ui_tpl_assetfolderpath #>css/bootstrap.css" rel="stylesheet">
-    <link href="<# ui_tpl_assetfolderpath #>css/style.css" rel="stylesheet">
+    <link href="<# ui_tpl_assetfolderpath #>global-css/bootstrap.css" rel="stylesheet">
+    <link href="<# ui_tpl_csspath #>" rel="stylesheet" type="text/css">
 
     <script src="<# ui_tpl_assetfolderpath #>js/jquery.js"></script>
     <script src="<# ui_tpl_assetfolderpath #>js/jquery.cookie.js"></script>
